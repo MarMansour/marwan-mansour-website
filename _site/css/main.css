@@ -156,30 +156,6 @@ nav ul {
   padding: .25em;
 }
 
-@keyframes btn {
-
-  0% {
-    background-color: #1B3034;
-  }
-
-  25% {
-    background-color: #AECED3;
-  }
-
-  50% {
-    background-color: #60ACB9;
-  }
-
-  75% {
-    background-color: #477E87;
-  }
-
-  100% {
-    background-color: #3C4748;
-  }
-
-}
-
 .description {
   margin: none;
 }
