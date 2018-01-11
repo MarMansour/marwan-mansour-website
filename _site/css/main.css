@@ -71,6 +71,10 @@ a {
   color: #ccc;
 }
 
+.contact-content {
+  text-align: left;
+}
+
 header {
 position: relative;
 float: left;
@@ -154,6 +158,7 @@ nav ul {
   animation: btn 20s infinite;
   border: none;
   padding: .25em;
+  
 }
 
 .description {
