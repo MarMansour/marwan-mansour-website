@@ -21,7 +21,12 @@ html {
 }
 
 .quote {
-  font-weight: 300;
+  font-weight:300;
+}
+
+h3 {
+  font-weight: 600;
+  color: #2f211e;
 }
 
 .wordmark {
@@ -34,7 +39,7 @@ html {
   display: block;
   height: 100%;
   fill: #ccc;
-  max-width: 100%;
+  max-width: 10em;
   animation: namefill 20s infinite;
 }
 
@@ -44,6 +49,7 @@ html {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 999;
 }
 
 .navbar li {
@@ -141,7 +147,7 @@ nav ul {
 }
 
 .contact {
-  text-align: right;
+  text-align: left;
 }
 
 .btn {
@@ -194,4 +200,26 @@ footer {
 
 #branding:hover + #header {
   background-color: green;
+}
+
+@media only screen and (min-width: 38em) {
+
+.nav-inline li {
+  display: inline-block;
+}
+
+}
+
+@media only screen and (min-width: 45em) {
+
+.nav-inline li {
+  display: inline-block;
+}
+
+.nav-bar {
+
+}
+
+
+
 }
